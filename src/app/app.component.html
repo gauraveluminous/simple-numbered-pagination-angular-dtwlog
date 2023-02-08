@@ -1,0 +1,8 @@
+<div class="output">
+  {{ page }}
+</div>
+
+<numbered-pagination
+  [index]="page"
+  (page)="pageEvent($event)"
+></numbered-pagination>
